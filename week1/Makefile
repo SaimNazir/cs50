@@ -23,3 +23,10 @@ calc: calc.c
 
 p1: p1.c
 	$(CC) $(CFLAGS) p1.c -o p1 $(LDLIBS)
+
+
+mario: mario.c
+	$(CC) $(CFLAGS) mario.c -o mario $(LDLIBS)
+
+credit: credit.c
+	$(CC) $(CFLAGS) credit.c -o credit $(LDLIBS)

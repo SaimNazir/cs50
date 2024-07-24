@@ -21,7 +21,7 @@ int main(void)
             printf("Stahp\n");
         }
         
-    yo(3);
+    yo(4);
 }
 
 
